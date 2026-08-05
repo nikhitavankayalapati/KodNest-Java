@@ -1,4 +1,4 @@
-package track.M02.T02;
+package track.Class_Practice;
 
 public class weeks {
     public static void main(String[] args) {
