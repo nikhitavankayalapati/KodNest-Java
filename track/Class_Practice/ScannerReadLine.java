@@ -15,5 +15,6 @@ public class ScannerReadLine {
         System.out.println("enter name");
         String name = sc.nextLine();
         System.out.println("Name :" + name);
+        sc.close();
     }
 }
