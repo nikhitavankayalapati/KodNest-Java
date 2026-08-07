@@ -10,16 +10,16 @@ public class WeeklyPractice {
         int targetSessions = 7;
         int completedSessions = 0;
 
-        outer: for (int i = 1; i <= practiceDays; i++) {
+        for (int i = 1; i <= practiceDays; i++) {
 
             if (i == revisionDay) {
                 continue;
             }
 
-            Inner: for (int j = 1; j <= sessionsPerDay; j++) {
+            for (int j = 1; j <= sessionsPerDay; j++) {
 
                 if (i == practiceDays && j > finalDaySessionLimit) {
-                    break Inner;
+                    break;
                 }
 
                 System.out.println("Day " + i + " - Session " + j);
