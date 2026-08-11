@@ -2,16 +2,15 @@ package track.M02.T04;
 
 import java.util.Scanner;
 
-class Student {
-    // Declare id, name, course and javaScore
-    int id;
-    String name;
-    String course;
-    double javaScore;
-
-}
-
 public class CreateAndDisplayStudentObject {
+    static class Student {
+        // Declare id, name, course and javaScore
+        int id;
+        String name;
+        String course;
+        double javaScore;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

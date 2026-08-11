@@ -42,5 +42,6 @@ class ObjectStudentApplication {
         s2.run();
         s2.sleep();
 
+        sc.close();
     }
 }
