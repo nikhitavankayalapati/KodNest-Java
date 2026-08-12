@@ -32,5 +32,6 @@ public class ObjectReferenceRelay {
         System.out.println("Third Reference: " + pt3.id);
         System.out.println("Relay Reference: " + relay.id);
         System.out.println("Unreachable Object: " + unreachable);
+        sc.close();
     }
 }
