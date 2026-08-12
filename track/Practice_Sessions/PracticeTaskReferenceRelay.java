@@ -37,5 +37,7 @@ public class PracticeTaskReferenceRelay {
 
         // 6. Assign first to third
         third = first;
+
+        sc.close();
     }
 }

@@ -25,5 +25,7 @@ public class StoreANameUsingThis {
 
         s1.setName(name);
         s1.displayName();
+
+        sc.close();
     }
 }

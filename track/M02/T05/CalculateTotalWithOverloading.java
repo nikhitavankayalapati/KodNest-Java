@@ -24,5 +24,7 @@ public class CalculateTotalWithOverloading {
 
         System.out.println("Two-Mark Total: " + rc.getTotal(first, second));
         System.out.println("Three-Mark Total: " + rc.getTotal(first, second, third));
+
+        sc.close();
     }
 }

@@ -36,5 +36,7 @@ public class UseTheFourSimpleMethodTypes {
         md.greet(name);
         System.out.println("Lucky Number: " + md.getLuckyNumber());
         System.out.println("Sum: " + md.add(first, second));
+
+        sc.close();
     }
 }

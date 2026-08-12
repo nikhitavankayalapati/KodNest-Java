@@ -36,5 +36,7 @@ public class StudentMethodFinalChallenge {
         s1.showName();
         s1.showScore(first);
         s1.showScore(first, second);
+
+        sc.close();
     }
 }

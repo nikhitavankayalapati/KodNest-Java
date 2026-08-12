@@ -22,6 +22,8 @@ public class CreatedTwoSimpleOverloadedMethod {
         String word = sc.next();
         p.show(number);
         p.show(word);
+
+        sc.close();
     }
 
 }

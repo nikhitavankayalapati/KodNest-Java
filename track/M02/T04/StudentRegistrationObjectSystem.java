@@ -2,13 +2,13 @@ package track.M02.T04;
 
 import java.util.Scanner;
 
-public class StudentRegistrationObjectSystem {
-    static class Student {
-        int registrationId;
-        String name;
-        double attendancePercentage;
-    }
+class Student {
+    int registrationId;
+    String name;
+    double attendancePercentage;
+}
 
+public class StudentRegistrationObjectSystem {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -31,12 +31,13 @@ public class StudentRegistrationObjectSystem {
 
         if (registrationid == s1.registrationId) {
             selectedStudent = s1;
-            s1.attendancePercentage = newPercentage;
-            System.out.println("Selected Student: " + s1.name);
         } else if (registrationid == s2.registrationId) {
             selectedStudent = s2;
-            s2.attendancePercentage = newPercentage;
-            System.out.println("Selected Student: " + s2.name);
+        }
+
+        if (selectedStudent != null) {
+            selectedStudent.attendancePercentage = newPercentage;
+            System.out.println("Selected Student: " + selectedStudent.name);
         } else {
             System.out.println("Student not found.");
         }

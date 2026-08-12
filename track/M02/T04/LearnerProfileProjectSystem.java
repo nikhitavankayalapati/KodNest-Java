@@ -32,5 +32,7 @@ public class LearnerProfileProjectSystem {
         System.out.println("After Update");
         System.out.println(l1.id + " - " + l1.name + " - " + l1.javaScore);
         System.out.println(l2.id + " - " + l2.name + " - " + l2.javaScore);
+
+        sc.close();
     }
 }

@@ -25,5 +25,7 @@ public class LearningProgressCard {
         System.out.println("Student: " + s.name);
         System.out.println("Progress: " + s.completedLessons + "/" + s.totalLessons);
         System.out.println("Completion: " + s.percentage + "%");
+
+        sc.close();
     }
 }

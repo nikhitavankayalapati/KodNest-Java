@@ -29,5 +29,7 @@ public class EmployeeDetailsWithShadowing {
 
         e1.setDetails(name, salary);
         e1.displayDetails();
+
+        sc.close();
     }
 }

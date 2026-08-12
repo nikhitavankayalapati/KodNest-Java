@@ -32,5 +32,7 @@ public class LiveprofileCheckpoint {
         System.out.println("Live: " + live.name + " " + live.points);
         System.out.println("Alias: " + alias.name + " " + alias.points);
         System.out.println("Checkpoint: " + checkpoint.name + " " + checkpoint.points);
+
+        scanner.close();
     }
 }
