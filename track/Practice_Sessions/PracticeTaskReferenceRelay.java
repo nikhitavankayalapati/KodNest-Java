@@ -1,3 +1,5 @@
+package track.Practice_Sessions;
+
 import java.util.Scanner;
 
 class PracticeTask {
