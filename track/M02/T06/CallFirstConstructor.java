@@ -8,6 +8,6 @@ class Robot {
 
 public class CallFirstConstructor {
     public static void main(String[] args) {
-        Robot r = new Robot();
+        new Robot();
     }
 }
