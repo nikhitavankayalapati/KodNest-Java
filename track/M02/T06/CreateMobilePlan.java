@@ -35,5 +35,6 @@ public class CreateMobilePlan {
 
         mp1.display();
         mp2.display();
+        sc.close();
     }
 }
