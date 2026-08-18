@@ -21,8 +21,8 @@ public class FindArrayStatistics {
                 mini = arr[i];
             }
         }
-
         System.out.println("Minimum: " + mini);
         System.out.println("Maximum: " + maxi);
+        sc.close();
     }
 }
