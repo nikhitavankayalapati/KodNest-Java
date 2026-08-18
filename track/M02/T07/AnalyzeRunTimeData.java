@@ -16,5 +16,6 @@ public class AnalyzeRunTimeData {
         }
 
         System.out.println("Total: " + total);
+        sc.close();
     }
 }
