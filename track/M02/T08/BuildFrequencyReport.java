@@ -23,5 +23,6 @@ public class BuildFrequencyReport {
         }
 
         System.out.println("Frequency of " + target + ": " + count);
+        sc.close();
     }
 }
