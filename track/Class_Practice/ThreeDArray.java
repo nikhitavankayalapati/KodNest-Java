@@ -24,7 +24,7 @@ public class ThreeDArray {
         for (int i = 0; i < d; i++) {
             for (int j = 0; j < r; j++) {
                 for (int k = 0; k < c; k++) {
-                    System.out.print(arr[i][j][k]);
+                    System.out.print(arr[i][j][k] + " ");
                 }
                 System.out.println();
             }
