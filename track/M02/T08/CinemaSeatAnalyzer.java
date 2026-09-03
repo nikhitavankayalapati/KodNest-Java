@@ -28,5 +28,6 @@ public class CinemaSeatAnalyzer {
         }
 
         System.out.println("Available seats: " + totalSeats);
+        sc.close();
     }
 }

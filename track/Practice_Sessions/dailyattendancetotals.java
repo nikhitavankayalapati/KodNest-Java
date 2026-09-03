@@ -24,6 +24,6 @@ public class dailyattendancetotals {
             }
             System.out.println("Day " + (i + 1) + " total: " + total);
         }
-        sc.close();
+        scanner.close();
     }
 }

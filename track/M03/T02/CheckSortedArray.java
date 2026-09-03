@@ -2,7 +2,7 @@ package track.M03.T02;
 
 import java.util.Scanner;
 
-public class CountValuesGreaterThanAvg {
+public class CheckSortedArray {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -10,23 +10,20 @@ public class CountValuesGreaterThanAvg {
         int n = sc.nextInt();
         int arr[] = new int[n];
 
-        int total = 0;
-
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
-            total += arr[i];
         }
 
-        int avg = total / n;
-        int c = 0;
+        int res = 1;
 
-        for (int ele : arr) {
-            if (ele > avg) {
-                c++;
+        for (int i = 1; i < n; i++) {
+            if (arr[i - 1] > arr[i]) {
+                res = 0;
+                break;
             }
         }
 
-        System.out.println(c);
+        System.out.println(res);
         sc.close();
     }
 }

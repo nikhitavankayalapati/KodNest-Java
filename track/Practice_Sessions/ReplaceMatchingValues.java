@@ -30,5 +30,6 @@ public class ReplaceMatchingValues {
         for (int i = 0; i < size; i++) {
             System.out.print(numbers[i] + " ");
         }
+        sc.close();
     }
 }

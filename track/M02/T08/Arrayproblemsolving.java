@@ -38,5 +38,6 @@ public class Arrayproblemsolving {
 
         System.out.println("Array total: " + arrTotal);
         System.out.println("Matrix total: " + matrixTotal);
+        sc.close();
     }
 }

@@ -26,5 +26,6 @@ public class CalculateMatrixTotals {
 
             System.out.println("Row " + (i + 1) + " total: " + tot);
         }
+        sc.close();
     }
 }
