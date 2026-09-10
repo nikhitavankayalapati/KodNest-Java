@@ -1,3 +1,5 @@
+package track.M03.T04;
+
 import java.util.Scanner;
 
 public class PrefixSum {
@@ -18,5 +20,6 @@ public class PrefixSum {
         for (int ele : prefixsum) {
             System.out.print(ele + " ");
         }
+        sc.close();
     }
 }

@@ -30,5 +30,6 @@ public class FindPairWithTargetSum {
         if (!found) {
             System.out.print(-1);
         }
+        sc.close();
     }
 }

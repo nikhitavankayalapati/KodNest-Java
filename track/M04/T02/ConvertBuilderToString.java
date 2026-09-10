@@ -1,0 +1,15 @@
+package track.M04.T02;
+
+import java.util.Scanner;
+
+public class ConvertBuilderToString {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String text = scanner.nextLine();
+
+        StringBuilder builder = new StringBuilder(text);
+        builder.append("!");
+        System.out.println("Builder: " + builder);
+        System.out.println("String: " + builder.toString());
+    }
+}
