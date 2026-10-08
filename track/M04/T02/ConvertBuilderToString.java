@@ -11,5 +11,6 @@ public class ConvertBuilderToString {
         builder.append("!");
         System.out.println("Builder: " + builder);
         System.out.println("String: " + builder.toString());
+        scanner.close();
     }
 }

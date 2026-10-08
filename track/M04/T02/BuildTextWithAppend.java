@@ -17,5 +17,6 @@ public class BuildTextWithAppend {
         builder.append(courseName);
 
         System.out.println(builder);
+        scanner.close();
     }
 }
