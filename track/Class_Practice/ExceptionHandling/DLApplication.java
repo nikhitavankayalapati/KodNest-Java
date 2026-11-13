@@ -8,6 +8,12 @@ class UnderAgeException extends Exception {
     }
 }
 
+class OverAgeException extends Exception {
+    OverAgeException() {
+        System.out.println("You are too old... take rest");
+    }
+}
+
 class DrivingLicence {
     int age;
 
@@ -18,9 +24,11 @@ class DrivingLicence {
         scan.close();
     }
 
-    void verify() throws UnderAgeException {
+    void verify() throws UnderAgeException, OverAgeException {
         if (age < 18) {
             throw new UnderAgeException();
+        } else if (age > 65) {
+            throw new OverAgeException();
         } else {
             System.out.println("DrivingLicence will be issued");
         }
@@ -33,7 +41,7 @@ public class DLApplication {
         dl.takeUserInput();
         try {
             dl.verify();
-        } catch (Exception e) {
+        } catch (UnderAgeException | OverAgeException e) {
             e.printStackTrace();
         }
         System.out.println("teminated");
